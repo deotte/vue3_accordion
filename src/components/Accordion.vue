@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <div class="accordion">
+  <div class="accordion container mx-auto p-4">
     <AccordionPanel title="Contact Information">
       <Contact></Contact>
     </AccordionPanel>
