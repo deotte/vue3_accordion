@@ -11,14 +11,22 @@ import CustomerWarning from './Form/CustomerWarning.vue';
       <h2 class="text-2xl">Payment</h2>
       <h2 class="text-2xl">Order #98765</h2>
     </div>
-    <AccordionPanel title="Contact Information">
-      <Contact></Contact>
-    </AccordionPanel>
-    <AccordionPanel title="Shipping Information">
-      <Shipping></Shipping>
-    </AccordionPanel>
-    <AccordionPanel title="Tracking Incidents">
-      <CustomerWarning></CustomerWarning>
-    </AccordionPanel>
+    <form>
+      <AccordionPanel
+        aria-title="contact"
+        title="Contact Information">
+        <Contact></Contact>
+      </AccordionPanel>
+      <AccordionPanel
+        aria-title="shipping"
+        title="Shipping Information">
+        <Shipping></Shipping>
+      </AccordionPanel>
+      <AccordionPanel
+        aria-title="incidents"
+        title="Tracking Incidents">
+        <CustomerWarning></CustomerWarning>
+      </AccordionPanel>
+    </form>
   </div>
 </template>
