@@ -1,4 +1,6 @@
-# vue3_accordion
+# Vue 3 Accordion
+
+<img width="995" alt="Screenshot 2023-02-06 at 3 03 57 PM" src="https://user-images.githubusercontent.com/31936704/217077333-c176239c-6e24-4e5f-aa81-f13480ab510f.png">
 
 This template should help get you started developing with Vue 3 in Vite.
 
